@@ -60,6 +60,28 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define OSC32_IN_Pin GPIO_PIN_14
+#define OSC32_IN_GPIO_Port GPIOC
+#define OSC32_OUT_Pin GPIO_PIN_15
+#define OSC32_OUT_GPIO_Port GPIOC
+#define PWM1_Pin GPIO_PIN_0
+#define PWM1_GPIO_Port GPIOA
+#define PWM2_Pin GPIO_PIN_1
+#define PWM2_GPIO_Port GPIOA
+#define CURRENT_MEAS_Pin GPIO_PIN_6
+#define CURRENT_MEAS_GPIO_Port GPIOA
+#define PULSE_01_3v3_Pin GPIO_PIN_0
+#define PULSE_01_3v3_GPIO_Port GPIOB
+#define PULSE_02_3v3_Pin GPIO_PIN_1
+#define PULSE_02_3v3_GPIO_Port GPIOB
+#define UART_TX_Pin GPIO_PIN_9
+#define UART_TX_GPIO_Port GPIOA
+#define UART_RX_Pin GPIO_PIN_10
+#define UART_RX_GPIO_Port GPIOA
+#define LED_RED_Pin GPIO_PIN_3
+#define LED_RED_GPIO_Port GPIOB
+#define LED_GREEN_Pin GPIO_PIN_4
+#define LED_GREEN_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
