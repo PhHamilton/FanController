@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IN-S63AT5G
+D Standard LEDs - SMD True Green LED
+K
+F http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S63AT%20Series_V1.1.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CM8V")(type "KiCad")(uri "C:/Users/phiha/Documents/FanController/Electronics/Models/Crystal/CM8V-T1A-32_768KHZ-12_5PF-20PP.kicad_sym")(options "")(descr ""))
+  (lib (name "IN-S63AT5G")(type "KiCad")(uri "C:/Users/phiha/Documents/FanController/Electronics/Models/IN-S63AT5G/IN-S63AT5G.kicad_sym")(options "")(descr ""))
+)

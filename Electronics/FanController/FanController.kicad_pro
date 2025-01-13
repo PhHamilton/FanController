@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -385,6 +385,14 @@
     [
       "ea4c7255-62f8-447f-8bfc-0b5563043d3f",
       "Rotark"
+    ],
+    [
+      "384674e5-c92f-47b7-9f56-2ac1ec14a055",
+      "mcu"
+    ],
+    [
+      "9a31a019-2ad7-4ecb-857a-960891807a6d",
+      "Power_and_IO"
     ]
   ],
   "text_variables": {}
