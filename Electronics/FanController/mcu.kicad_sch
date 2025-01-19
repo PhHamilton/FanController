@@ -1589,12 +1589,6 @@
 		)
 	)
 	(junction
-		(at 167.64 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48df613d-1197-42dc-a236-769a939677fa")
-	)
-	(junction
 		(at 77.47 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1617,6 +1611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a71a2903-2a11-4e13-9639-b32084a17a19")
+	)
+	(junction
+		(at 167.64 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c68bbe68-2c96-44c8-9f33-a146bffc41ab")
 	)
 	(junction
 		(at 140.97 62.23)
@@ -1782,16 +1782,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 59.69) (xy 171.45 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f08b0bd-556d-48fb-8d76-004440043036")
-	)
-	(wire
-		(pts
 			(xy 132.08 72.39) (xy 132.08 74.93)
 		)
 		(stroke
@@ -1799,6 +1789,16 @@
 			(type default)
 		)
 		(uuid "502c55cb-ac31-45cc-99b2-09d98b1f214f")
+	)
+	(wire
+		(pts
+			(xy 167.64 59.69) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5157b827-60ba-46bb-a4d6-c1b37d03bcd8")
 	)
 	(wire
 		(pts
@@ -1872,16 +1872,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 44.45) (xy 167.64 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83acf247-4d22-4f73-9d9a-fdf1f7a40b11")
-	)
-	(wire
-		(pts
 			(xy 90.17 71.12) (xy 92.71 71.12)
 		)
 		(stroke
@@ -1899,6 +1889,16 @@
 			(type default)
 		)
 		(uuid "8a0b5f36-5c82-4d4d-875e-85f69052ab69")
+	)
+	(wire
+		(pts
+			(xy 167.64 59.69) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb7997e-cc54-4df3-a674-3e186be1964c")
 	)
 	(wire
 		(pts
@@ -2052,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 59.69) (xy 167.64 63.5)
+			(xy 167.64 44.45) (xy 167.64 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2717,7 +2717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a768ac0-4785-4a09-bfd8-eb4e2196a3b5")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 139.7 104.394 90)
 			(effects
 				(font
@@ -2733,7 +2733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 139.7 108.458 90)
 			(effects
 				(font
@@ -2769,7 +2769,7 @@
 		(instances
 			(project "FanController"
 				(path "/ea4c7255-62f8-447f-8bfc-0b5563043d3f/384674e5-c92f-47b7-9f56-2ac1ec14a055"
-					(reference "R3")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3027,7 +3027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM8V32768TA020125"
+		(property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm_HandSoldering"
 			(at 180.34 155.88 0)
 			(effects
 				(font
@@ -3130,7 +3130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85559dd6-b212-4afc-b0a2-c3644b479535")
-		(property "Reference" "C10"
+		(property "Reference" "C16"
 			(at 189.738 66.548 0)
 			(effects
 				(font
@@ -3148,7 +3148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 186.3852 71.12 0)
 			(effects
 				(font
@@ -3184,7 +3184,7 @@
 		(instances
 			(project "FanController"
 				(path "/ea4c7255-62f8-447f-8bfc-0b5563043d3f/384674e5-c92f-47b7-9f56-2ac1ec14a055"
-					(reference "C10")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3218,7 +3218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
 			(at 146.05 67.31 0)
 			(effects
 				(font
@@ -3270,7 +3270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c15dd6ef-9609-48ce-b15c-2886cb79f072")
-		(property "Reference" "R4"
+		(property "Reference" "R14"
 			(at 134.62 54.6099 0)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 130.302 55.88 90)
 			(effects
 				(font
@@ -3324,7 +3324,7 @@
 		(instances
 			(project "FanController"
 				(path "/ea4c7255-62f8-447f-8bfc-0b5563043d3f/384674e5-c92f-47b7-9f56-2ac1ec14a055"
-					(reference "R4")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3405,7 +3405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea1b8f0d-50f9-48c2-9b9c-8e38909d4855")
-		(property "Reference" "C8"
+		(property "Reference" "C14"
 			(at 122.174 66.04 0)
 			(effects
 				(font
@@ -3423,7 +3423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 133.0452 71.12 0)
 			(effects
 				(font
@@ -3459,7 +3459,7 @@
 		(instances
 			(project "FanController"
 				(path "/ea4c7255-62f8-447f-8bfc-0b5563043d3f/384674e5-c92f-47b7-9f56-2ac1ec14a055"
-					(reference "C8")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3474,7 +3474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f687d0e6-ad54-4a19-997b-83e1b1d88a40")
-		(property "Reference" "C9"
+		(property "Reference" "C15"
 			(at 171.958 66.548 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 168.6052 71.12 0)
 			(effects
 				(font
@@ -3528,7 +3528,7 @@
 		(instances
 			(project "FanController"
 				(path "/ea4c7255-62f8-447f-8bfc-0b5563043d3f/384674e5-c92f-47b7-9f56-2ac1ec14a055"
-					(reference "C9")
+					(reference "C15")
 					(unit 1)
 				)
 			)
