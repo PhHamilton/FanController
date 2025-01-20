@@ -1589,6 +1589,12 @@
 		)
 	)
 	(junction
+		(at 74.93 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46083617-33b7-412b-b7b5-21b180b5f47d")
+	)
+	(junction
 		(at 77.47 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1832,6 +1838,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 48.26) (xy 77.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7deab4ab-347d-4ce3-ba0e-c5f68397b487")
+	)
+	(wire
+		(pts
 			(xy 140.97 62.23) (xy 151.13 62.23)
 		)
 		(stroke
@@ -1932,17 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 77.47 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2985065-6145-453f-858a-8c1da05d57e6")
-	)
-	(wire
-		(pts
-			(xy 77.47 44.45) (xy 77.47 48.26)
+			(xy 74.93 44.45) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2578,7 +2584,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VP")
-		(at 77.47 44.45 0)
+		(at 74.93 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2587,7 +2593,7 @@
 		(fields_autoplaced yes)
 		(uuid "465705d3-653c-4215-836e-58b37719c051")
 		(property "Reference" "#PWR033"
-			(at 81.28 45.72 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2602,7 @@
 			)
 		)
 		(property "Value" "+3.3VP"
-			(at 77.47 39.37 0)
+			(at 74.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 44.45 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 44.45 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
-			(at 77.47 44.45 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
