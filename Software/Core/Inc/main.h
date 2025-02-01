@@ -68,8 +68,6 @@ void Error_Handler(void);
 #define PWM1_GPIO_Port GPIOA
 #define PWM2_Pin GPIO_PIN_1
 #define PWM2_GPIO_Port GPIOA
-#define CURRENT_MEAS_Pin GPIO_PIN_6
-#define CURRENT_MEAS_GPIO_Port GPIOA
 #define PULSE_01_3v3_Pin GPIO_PIN_0
 #define PULSE_01_3v3_GPIO_Port GPIOB
 #define PULSE_02_3v3_Pin GPIO_PIN_1
