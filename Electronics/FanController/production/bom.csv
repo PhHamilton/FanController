@@ -3,11 +3,11 @@ C1,C_Radial_D5.0mm_H5.0mm_P2.00mm,1,47 uF,;;Electrokit;
 C11, C12, C13, C14, C15, C16, C2, C3, C5, C7,1206,10,100 nF,;;Mouser;
 C4,C_Radial_D5.0mm_H5.0mm_P2.00mm,1,10 uF,;;Electrokit;
 D1, D2,1206,2,LED,;;Elektrokit;
-J1,PinHeader_2x02_P2.54mm_Horizontal,1,POWER IN,;;Mouser;90122-0761
-J2,PinHeader_2x04_P2.54mm_Horizontal,1,CONTROLLER IN/OUT,;;Mouser;10-88-3041
-J3,PinHeader_2x04_P2.54mm_Vertical,1,PROGRAMMER,;;Mouser;10-89-7080
-J4,PinHeader_2x03_P2.54mm_Vertical,1,SUPPLY SELECTOR,;;;
-J5,PinHeader_2x03_P2.54mm_Horizontal,1,FAN I/O,;;;
+J1,PinHeader_2x02_P2.54mm_Horizontal,1,POWER IN,;;Elektrokit;90122-0761
+J2,PinHeader_2x04_P2.54mm_Horizontal,1,CONTROLLER IN/OUT,;;Elektrokit;10-88-3041
+J3,PinHeader_2x04_P2.54mm_Vertical,1,PROGRAMMER,;;Elektrokit;10-89-7080
+J4,PinHeader_2x03_P2.54mm_Vertical,1,SUPPLY SELECTOR,;;Elektrokit;
+J5,PinHeader_2x03_P2.54mm_Horizontal,1,FAN I/O,;;Elektrokit;
 R10, R12,1206,2,22k,;;Electrokit;
 R11, R13,1206,2,7.5k,;;Mouser;
 R14, R15,1206,2,10k,;;Electrokit;
